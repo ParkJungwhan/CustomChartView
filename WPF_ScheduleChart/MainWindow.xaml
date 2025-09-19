@@ -2,9 +2,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:WPF_ScheduleChart"
     xmlns:ScheduleChartView="clr-namespace:ScheduleChartView;assembly=ScheduleChartView"
-    x:Class="WPF_ScheduleChart.MainWindow"
-    mc:Ignorable="d" Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <ScheduleChartView:TimeLineView x:Name="chart" />
-    </Grid>
+    x:Class="WPF_ScheduleChart.MainWindow" Title="Timeline (Last 60s)" Width="1000" Height="420" mc:Ignorable="d">
+    <TabControl>
+        <TabItem Header="Timeline">
+            <ScheduleChartView:TimeLineView />
+        </TabItem>
+    </TabControl>
 </Window>
