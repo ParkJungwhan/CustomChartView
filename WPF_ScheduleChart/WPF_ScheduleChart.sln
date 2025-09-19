@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ScheduleChart", "WPF_ScheduleChart.csproj", "{D4883952-41BA-425C-B879-1178ED2A8D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleChartView", "..\ScheduleChartView\ScheduleChartView.csproj", "{A8ABB974-006B-4ED4-9E79-988C45B71FBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4883952-41BA-425C-B879-1178ED2A8D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4883952-41BA-425C-B879-1178ED2A8D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4883952-41BA-425C-B879-1178ED2A8D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4883952-41BA-425C-B879-1178ED2A8D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ABB974-006B-4ED4-9E79-988C45B71FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ABB974-006B-4ED4-9E79-988C45B71FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ABB974-006B-4ED4-9E79-988C45B71FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ABB974-006B-4ED4-9E79-988C45B71FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88D65D14-300B-4CCB-B53B-9CB2351A9CB5}
+	EndGlobalSection
+EndGlobal
